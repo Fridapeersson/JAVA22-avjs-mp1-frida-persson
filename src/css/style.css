@@ -35,7 +35,7 @@ button{
 }
 
 .playerName{
-    padding: 0;
+    padding: 10;
     margin: 0;
 }
 
@@ -51,11 +51,11 @@ button{
     margin: 0;
 }
 
-.computerScore{
+/* .computerScore{
     padding-top: 10px;
     margin: 0;
     font-size: 20px;
-}
+} */
 
 #resultText{
     padding: 30px;
@@ -72,22 +72,13 @@ button{
 }
 
 #playAgain{
-    padding:10px;
+    padding: 10px;
     margin: 20px;
+    border-radius: 15%;
 }
 
 #playAgain:hover{
-    background-color: limegreen;
-}
-
-.winnerTextPlayer{
-    text-align: center;
-    background-color: limegreen;
-}
-
-.winnerTextComputer{
-    text-align: center;
-    background-color: red;
+    background-color: #FAFA;
 }
 
 ol{
